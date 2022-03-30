@@ -1,0 +1,169 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* body{
+    background-color: red;
+}
+
+::selection{
+    background-color: rgba(165, 42, 42, 0.548);
+    color: blanchedalmond;
+}
+
+::-webkit-scrollbar {
+    width: 1px;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: red;
+}
+
+.all{
+    justify-content: space-evenly;
+    display: flex;
+    margin-top: 50px;
+}
+
+.box{
+    width: 30%;
+}
+
+.box:hover img{
+    filter: drop-shadow(5px 8px 11px black);
+}
+
+.box img{
+    width: 100%;
+    transition: .5s;
+} */
+
+/* #First{
+    background-image: url(https://images.unsplash.com/photo-1542831371-29b0f74f9713?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8cHJvZ3JhbW1pbmd8ZW58MHx8MHx8&w=1000&q=80);
+    background-position: center;
+    background-size: cover;
+    height: 600px;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 75% 75%, 75% 100%, 50% 75%, 0% 75%);
+} */
+
+
+/* position */
+
+/* relative / absolute / fixed / sticky / static */
+
+
+html,body{
+    scroll-behavior: smooth;
+}
+
+#top-btn{
+    color: #fff;
+    background-color: blueviolet;
+    font-size: 20px;
+    padding: 12px;
+    cursor: pointer;
+    border-radius: 100%;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+
+
+#menu{
+    color: #fff;
+    background-color: rgba(137, 43, 226, 0.616);
+    font-size: 20px;
+    padding: 12px;
+    cursor: pointer;
+    border-radius: 4px;
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    transition: .5s;
+}
+
+#menu:hover{
+    background-color: rgb(137, 43, 226);
+}
+
+#demo{
+    width: 150px;
+    height: 150px;
+    background-color: blueviolet;
+    position: sticky;
+    top: 0;
+}
+
+.X{
+    width: 300px;
+    height: 300px;
+    background-color: burlywood;
+    position: relative;
+}
+
+.Y{
+    width: 50px;
+    height: 50px;
+    background-color: blueviolet;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+
+
+.box{
+    width: 30%;
+    position: relative;
+}
+
+.all{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.box img{
+    width: 100%;
+    vertical-align: bottom;
+    transition: .5s;
+}
+
+.box-text{
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+}
+
+h4{
+    color: #fff;
+    font-size: 20px;
+}
+
+.box:hover img{
+    filter: contrast(1.5);
+}
+
+.box:hover .box-icon{
+    opacity: 1;
+}
+
+.box-icon{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    opacity: 0;
+    transition: .5s;
+}
+
+.box-icon i{
+    color: #000;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 100%;
+    cursor: pointer;
+}
